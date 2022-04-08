@@ -1,3 +1,8 @@
+// ******************************************************************************************************************
+// The functions here read data from user.json file and fetch data for an indivdual user
+// The data is then returned to the html script which calls each of these fuction on clicking the repective button.
+// ******************************************************************************************************************
+
 
 function getGender() {
     fetch('../Program/users.json')
